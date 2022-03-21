@@ -26,18 +26,21 @@
 
 
 import React from "react";
+import Header from "./assets/Components/Header";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Footer from "./Components/Footer";
 import "./assets/Components/styles/Footer.css";
+import Footer from "./assets/Components/Footer";
+// import Navbar from "./assets/Components/Navbar";
 function App() {
     return (
         <BrowserRouter>
             <div className="App">
+             {/* this is app1  */}
+             {/* <Navbar/>  */}
+             <Header/> 
                 <Switch>
-                    <Route exact path="/">
-                    <Footer />
-                    </Route>
+                    <Route exact path="/" component={Footer}/>
                 </Switch>
             </div>
         </BrowserRouter>

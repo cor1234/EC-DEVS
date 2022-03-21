@@ -1,9 +1,9 @@
 import React from 'react'
  import './styles/Footer.css'
- import Instagram from './assets/Instagram.svg'
- import Twitter from './assets/Twitter.svg'
- import LinkedIn from './assets/LinkedIn.svg'
- import Github from './assets/Github.svg'
+ import Instagram from '../Instagram.svg'
+ import Twitter from '../Twitter.svg'
+ import LinkedIn from '../LinkedIn.svg'
+ import Github from '../Github.svg'
 function Footer() {
     return (
         <div id="Footer">
@@ -19,7 +19,7 @@ function Footer() {
                             
                                  <a href="https://www.instagram.com/codefloworg/" target="_blank"><img src={Instagram} alt=""/></a>
                                 <a href="https://twitter.com/codefloworg" target="_blank"><img src={Twitter} alt=""/></a>
-                                <a href="https://in.linkedin.com/company/codefloworg" target="_blank"><img src={LinkedIn} alt=""/></a>
+                                <a href="https://www.linkedin.com/in/rohan-kumar-465218227/" target="_blank"><img src={LinkedIn} alt=""/></a>
                                 <a href="https://github.com/CodeFlowOrg" target="_blank"><img src={Github} alt=""/></a> 
                             </div>
                         </div>
@@ -58,12 +58,6 @@ function Footer() {
             <div className="footer-end">
             College Pravesh  with ❤️ by ECDevs
                 
-            </div>
-            <div className="footer-bg-particles">
-                {/* set data-eff to 0 for these particles to stop animating on mouse move */}
-                <img className="bg-crl" id="bg-ft-cr" data-eff="5" alt="" />
-                <img className="bg-icn" id="bg-ft-i1" data-eff="10" alt=""/>
-                <img className="bg-icn" id="bg-ft-i2" data-eff="-15" alt=""/>
             </div>
         </div>
     )
